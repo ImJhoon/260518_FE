@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 검색 등에 노출되는 데이터 , 화면에는 보이지 않음-->
+    <meta name="description" content="저의 기술을 보여드리죠" />
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <!-- web font -->
+    <style>
+      @font-face {
+        font-family: "Juache";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff")
+          format("woff");
+        font-weight: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "BookkMyungjo";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2")
+          format("woff2");
+        font-weight: 400;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "BookkMyungjo";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2")
+          format("woff2");
+        font-weight: 700;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-1Thin.woff2")
+          format("woff2");
+        font-weight: 100;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-2ExtraLight.woff2")
+          format("woff2");
+        font-weight: 200;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-3Light.woff2")
+          format("woff2");
+        font-weight: 300;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-4Regular.woff2")
+          format("woff2");
+        font-weight: 400;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-5Medium.woff2")
+          format("woff2");
+        font-weight: 500;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-6SemiBold.woff2")
+          format("woff2");
+        font-weight: 600;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-7Bold.woff2")
+          format("woff2");
+        font-weight: 700;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-8ExtraBold.woff2")
+          format("woff2");
+        font-weight: 800;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "A2z";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-9Black.woff2")
+          format("woff2");
+        font-weight: 900;
+        font-display: swap;
+      }
+      /* 태그 전체에 적용 */
+      /* 1. body 또는 html에다가 폰트를 지정하면 '상속' */
+      .juache {
+        font-family: "Juache";
+      }
+
+      .bookk {
+        font-family: "BookkMyungjo";
+      }
+
+      h1 {
+        font-family: "A2z";
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        background-color: #f0edcc;
+        color: #02343f;
+      }
+
+      #page-title {
+        text-align: center;
+        padding: 15px;
+      }
+
+      div {
+        padding: 15px;
+      }
+
+      .div-title {
+        margin-bottom: 20px;
+      }
+
+      .div-content {
+        line-height: 25px;
+      }
+    </style>
+
+    <title>Jhoon의 포트폴리오 웹사이트</title>
+  </head>
+  <body>
+    <h1 id="page-title"><i>Font & Icon</i></h1>
+    <hr />
+    <!-- 일반적으로 폰트의 경우 3가지 정도까지는 괜찮음 -->
+    <div class="juache">
+      <!-- 제목 폰트 : 굵고 진지한  -->
+      <h1 class="div-title">저는 Jhoon입니다</h1>
+      <p class="div-content">
+        개발자를 꿈꾸는 사람이에요. <br />
+        제 이메일은 <strong>ssss@@nnc.com</strong>입니다! <br />
+        Font : 배민체, 에이투지체
+      </p>
+    </div>
+    <hr />
+    <div class="bookk">
+      <h1 class="div-title">저는 Jhoon입니다</h1>
+      <p class="div-content">
+        개발자를 꿈꾸는 사람이에요. <br />
+        제 이메일은 <strong>ssss@@nnc.com</strong>입니다! <br />
+        Font : 배민체, 에이투지체
+      </p>
+    </div>
+  </body>
+</html>
