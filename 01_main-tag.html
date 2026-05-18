@@ -3,16 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTTP 태그 정리</title>
   </head>
   <body>
     <!-- 헤드라이너, 제목을 표현할 때 사용-->
     <h1>헤드라인 1</h1>
+    <hr />
     <h2>헤드라인 2</h2>
+    <hr />
     <h3>헤드라인 3</h3>
+    <hr />
     <!-- br 과 같은 태그는 Self-closing 태그-->
     텍스트 입력 <br />
     <p>문단을 의미</p>
     <p>p 태그는<br />br과 혼용 가능하다</p>
+
+    <!-- 가능하면 화면을 꾸미는 태그들은 덜 쓰고, CSS에게 맡기는 추세.. 아래와 같은 태그-->
+    <em>이탤릭체</em>
+    <i>이탤릭체</i>
+    <hr />
+    <!-- 목록 (순서가 있는 목록, 순서가 없는 목록)-->
+    <ol>
+      <li>순서가 있는 목록</li>
+      <li>순서가 있는 목록</li>
+    </ol>
+    <ul>
+      <li>순서가 없는 목록</li>
+      <li>순서가 없는 목록</li>
+    </ul>
+
+    <!-- 링크 태그 -->
+    <a href="https://google.com" target="_blank">구글로 이동합니다.</a>
+
+    <br /><br /><br />
+    <!-- 이미지 (self-closing tag) -->
+    <img
+      src="https://picsum.photos/400/200"
+      alt="랜덤이미지"
+      title="커서를 올리면 나오는 텍스트"
+    />
+    <img src="주소인척" alt="깨진 이미지" />
   </body>
 </html>
