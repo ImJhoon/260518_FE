@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 실습</title>
+  </head>
+  <body>
+    <h1>회원 가입 양식</h1>
+    <!-- 기본적인 인풋 -->
+    <h2>그냥 인풋</h2>
+    <input />
+    <button>제출</button>
+    <!-- form 태그 없는 구조에서는 input 과 button 의미 없지만-->
+    <!-- form 태그 안에 작성된 태그들은 연관 관계 있음-->
+    <h2>폼 인풋</h2>
+    <form action="https://naver.com" method="get">
+      <!-- form으로 묶으면 하위 Input에서 enter 치면 제출 처리 or 버튼 누르면-->
+      <label for="username">유저이름 : </label
+      ><input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="이름 입력 칸"
+      />
+      <br />
+      <label for="">비밀번호 : </label
+      ><input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="비밀번호 입력 칸"
+      />
+      <button>제출</button>
+      <br />
+      <br />
+      <!-- 큰 텍스트 input 여러줄 -->
+      <h2>텍스트 입력 칸</h2>
+      <textarea name="long_text"></textarea>
+      <br />
+      <!-- 라디오 형식의 체크는 하나만 체크 가능-->
+      <input type="radio" name="gender" value="남성" /> 남성
+      <input type="radio" name="gender" value="여성" /> 여성
+      <br />
+      <!-- 체크 박스 -->
+      <input type="checkbox" name="취미 설문조사" value="football" /> 축구
+      <input type="checkbox" name="취미 설문조사" value="baseball" /> 야구
+      <!--input type 버튼은 제출이 안되지만 button은 제출이 됨-->
+      <input type="button" name="취미 버튼" value="버튼" />
+      <button>제출</button>
+    </form>
+  </body>
+</html>
